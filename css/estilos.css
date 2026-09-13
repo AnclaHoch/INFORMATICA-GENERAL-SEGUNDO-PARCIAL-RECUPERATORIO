@@ -115,6 +115,7 @@ blockquote {
     font-weight: 600;
 }
 
+
 /*estilos de todas las img*/
 
 img {
@@ -123,6 +124,14 @@ img {
     object-fit: contain;
     border-radius: 1rem;
     margin-bottom: 1.5rem;
+}
+
+/*estilos del video*/
+
+iframe {
+    display: block;
+    margin: 2rem auto; /* centra el video */
+    max-width: 100%;
 }
 
 
