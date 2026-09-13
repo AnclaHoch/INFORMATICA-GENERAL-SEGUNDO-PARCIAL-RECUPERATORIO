@@ -167,6 +167,7 @@ aside {
     max-width: 900px;
     margin: 2rem auto;
     padding: 2rem;
+    padding-bottom: 3rem;
     background-color: rgb(178, 176, 32, 0.85);
     border-radius: 1rem;
 }
