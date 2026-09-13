@@ -28,7 +28,6 @@ body {
     margin: 0; 
     padding: 0;
     padding-bottom: 5rem;
-
 }
 
 
@@ -42,7 +41,6 @@ header {
     text-align: center;
     background-color:  rgb(184, 23, 12, 0.85);
     border-radius: 1rem;
-
 }
 
 header h1 {
@@ -74,8 +72,8 @@ nav ul {
     display: flex; /* pone los links en fila horizontal */
     gap: 1rem; /* espacio entre cada link */
     justify-content: center;
-
 }
+
 nav a {
     font-weight: 600;
     font-size: 0.9rem;
@@ -161,6 +159,29 @@ div p {
     font-size: 1rem;
     text-align: justify;
 }
+
+
+/*estilos del aside*/
+
+aside {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgb(178, 176, 32, 0.85);
+    border-radius: 1rem;
+}
+
+aside h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+aside p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
 
 /*estilos del footer*/
 
