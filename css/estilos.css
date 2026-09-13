@@ -12,7 +12,7 @@
 /*estilos generales de todo el contenido del body*/
 
 body {
-    background-image: url(../img/fondo.png);
+    background-image: url(../img/intro-6-resized.jpg);
     background-repeat: repeat;
     background-position: center;
     background-attachment: fixed;
@@ -21,8 +21,6 @@ body {
     font-family: 'Abel';
     font-style: normal;
     font-weight: 400;
-    font-display: swap;
-
     display: flex; 
     flex-direction: column; 
     align-items: center; 
@@ -33,17 +31,18 @@ body {
 
 }
 
-/*estilos del header y su contenido*/
+
+/*estilos del header*/
 
 header {
     margin: 2rem auto;
-    margin-left: 2rem;
-    margin-right: 2rem;
     margin-top: 3rem;
     padding: 2rem;
+    max-width: 900px;
     text-align: center;
-    background-color:  rgb(1, 20, 43);
-    border-radius: 1.5rem;
+    background-color:  rgb(184, 23, 12, 0.85);
+    border-radius: 1rem;
+
 }
 
 header h1 {
@@ -61,6 +60,9 @@ header p {
     margin: 0;
 }
 
+
+/*estilos del nav*/
+
 nav {
     margin-top: 1.5rem;
 }
@@ -71,7 +73,8 @@ nav ul {
     margin: 0;
     display: flex; /* pone los links en fila horizontal */
     gap: 1rem; /* espacio entre cada link */
-    padding-left: 36rem;
+    justify-content: center;
+
 }
 nav a {
     font-weight: 600;
@@ -91,10 +94,94 @@ nav a:visited {
 */
 
 nav a:hover {
-    color:cyan;
+    color:rgb(141, 153, 7);
 }
 
 nav a:active {
-    color: darkcyan;
+    color: rgb(81, 8, 8);
 }
 
+
+/*estilos del blockquote*/
+
+blockquote {
+
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 900px;
+    background-color: rgb(178, 176, 32, 0.85);
+    border-radius: 1rem;
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+/*estilos de todas las img*/
+
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/*estilos del contenedor div*/
+
+div {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/*estilos de article (funciona como una tarjeta de contenido)*/
+
+article {
+    background-color: rgb(184, 23, 12, 0.85);
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 1.5rem;
+}
+
+
+/*estilos del título dentro de article*/
+
+article h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+
+/*estilos del párrafo dentro de article*/
+
+div p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/*estilos del footer*/
+
+footer {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: rgb(184, 23, 12, 0.85);
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: rgb(141, 153, 7);
+}
