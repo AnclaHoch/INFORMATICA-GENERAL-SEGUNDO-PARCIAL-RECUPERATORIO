@@ -16,7 +16,7 @@ body {
     background-repeat: repeat;
     background-position: center;
     background-attachment: fixed;
-    
+    font-family: 'Abel';
     line-height: 1.7;
     font-family: 'Abel';
     font-style: normal;
@@ -52,8 +52,10 @@ header h1 {
 }
 
 header p {
+    font-family: 'Abel';
     font-size: 2rem;
-    font-style: italic;
+    font-style:normal;
+    font-weight: 400;
     opacity: 0.8; /* levemente transparente para jerarquía visual */
     margin: 0;
 }
@@ -112,7 +114,7 @@ blockquote {
     text-align: center;
     font-style: italic;
     font-size: x-large;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 
@@ -162,9 +164,18 @@ article h2 {
 }
 
 
+/*estilos de la ul del article*/
+
+article ul li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+}
+
+
 /*estilos del párrafo dentro de article*/
 
-div p {
+div article p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1rem;
     text-align: justify;
 }
@@ -188,6 +199,7 @@ aside h3 {
 }
 
 aside p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1rem;
     text-align: justify;
 }
