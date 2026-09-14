@@ -2,7 +2,7 @@
 /* reset general*/
 
 * { 
-    color: ;
+    color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -121,6 +121,7 @@ blockquote {
 /*estilos de todas las img*/
 
 img {
+
     width: 100%;
     height: 300px;
     object-fit: contain;
@@ -131,6 +132,7 @@ img {
 /*estilos del video*/
 
 iframe {
+
     display: block;
     margin: 2rem auto; /* centra el video */
     max-width: 100%;
@@ -140,6 +142,7 @@ iframe {
 /*estilos del contenedor div*/
 
 div {
+
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
@@ -149,6 +152,7 @@ div {
 /*estilos de article (funciona como una tarjeta de contenido)*/
 
 article {
+
     background-color: rgb(184, 23, 12, 0.85);
     padding: 2rem;
     margin: 2rem auto;
@@ -229,18 +233,14 @@ footer a:hover {
     color: rgb(141, 153, 7);
 }
 
-
-
+/*estilo del h2 del ejercicio.html*/
 
 h2.rojo {
-
-    margin: 0 0 0.5rem 0;
+    background-color: rgb(184, 23, 12, 0.85);   
     margin-top: 3rem;
     padding: 2rem;
     max-width: 900px;
     text-align: center;
-    background-color: rgb(184, 23, 12, 0.85);
-    border-radius: 1rem;
     font-family: 'Abel';
     font-size: 5rem;
     font-weight: 900;
@@ -312,7 +312,7 @@ button:hover {
 
 button:disabled {
     background-color: rgb(141, 153, 7);
-    opacity: 8;
+    opacity: 0.8;
     cursor: not-allowed;
 }
 
